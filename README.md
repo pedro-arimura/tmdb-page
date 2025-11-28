@@ -77,6 +77,20 @@ This will run the test suite using your configured test runner (e.g., Jest).
 
 ---
 
+### Architectural Decisions
+
+1. API Layer Isolated
+Keeps UI components pure and testable.
+
+2. No CSS Libraries
+Ensures pixel-perfect match with the design spec.
+
+3. Fully Typed With TypeScript
+Safer, more predictable code.
+
+4. Strong Test Coverage
+API + components are independently testable.
+
 ### Future improvements
 
 For this project, if we want better performance or want to avoid making a new request to the API every time the home page renders, we should use SWR on the home page (specifically in the fetch for popular movies). This would lead to improved performance at scale.

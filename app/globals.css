@@ -29,4 +29,14 @@ body {
 
 * {
   color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+.page-transition {
+  animation: pageFade 0.3s ease;
+}
+
+@keyframes pageFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
