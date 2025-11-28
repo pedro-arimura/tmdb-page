@@ -1,3 +1,8 @@
+## Versions used:
+
+* **Node.js:** v22.18.0
+* **npm:** 10.9.3
+
 ## Requirements
 
 * **Node.js** (version 18+ recommended)
