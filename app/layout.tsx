@@ -4,8 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 const roboto = Roboto({
-    variable: "--font-roboto",
-    subsets: ["latin"],
+  variable: "--font-roboto",
+  subsets: ["latin"],
 })
 
 export const metadata: Metadata = {
