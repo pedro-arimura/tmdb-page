@@ -76,3 +76,9 @@ npm run test
 This will run the test suite using your configured test runner (e.g., Jest).
 
 ---
+
+### Future improvements
+
+---
+
+For this project, if we want better performance or want to avoid making a new request to the API every time the home page renders, we should use SWR. This would lead to improved performance at scale.

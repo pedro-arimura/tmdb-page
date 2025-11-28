@@ -6,13 +6,10 @@ export default async function AboutMoviePage({ params }: { params: { id: string 
     const { id } = await params;
 
     const movieData = await getMovieDetailsById(id);
-    console.log(movieData);
     const moviePoster = `https://image.tmdb.org/t/p/w342${movieData.poster_path}`;
     const launchYear = movieData.release_date?.slice(0, 4) || "N/A";
     const videos = movieData.videos;
     
-    console.log(movieData.videos);
-
     return (
       <div>
         <div className="title-bar">

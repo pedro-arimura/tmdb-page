@@ -1,7 +1,8 @@
 import { Movie } from "@/types/movie";
 import Link from "next/link";
+import React from "react";
 
-export default function MovieCard({ movie }: { movie: Movie}) {
+function MovieCard({ movie }: { movie: Movie}) {
     // Construct the full image URL
   const imageUrl = `https://image.tmdb.org/t/p/w185${movie.poster_path}`;
 
@@ -13,3 +14,5 @@ export default function MovieCard({ movie }: { movie: Movie}) {
     </Link>
   );
 }
+
+export default React.memo(MovieCard);
