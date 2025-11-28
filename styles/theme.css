@@ -1,0 +1,171 @@
+.details-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  padding-bottom: 40px;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2e2c28;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+}
+
+.back-button,
+.menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.title-bar {
+  background: #746A64;
+  color: #fff;
+  padding: 14px;
+}
+
+.title-bar h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.main-info {
+  display: flex;
+  gap: 16px;
+  padding: 0px 0px 20px 0px;
+}
+
+.poster {
+  width: 115px;
+  border-radius: 2px;
+}
+
+.info-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.year {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 400;
+  color: #212121;
+}
+
+.rating {
+  font-size: 14px;
+  margin: 6px 0;
+  font-weight: 700;
+  color: #212121;
+}
+
+.favorite-btn {
+  background: #746A64;
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.overview {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.trailers-title {
+  padding: 20px 0px 10px 0px;
+  color: #757575;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.trailers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trailer-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #757575;
+}
+
+.play-icon {
+  font-size: 18px;
+}
+
+.movie-duration {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.movie-details-wrapper {
+    padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  background-color: #212121;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-button,
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.movie-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+/*
+Ensures that the movie poster covers all the allocated space without leaving white gaps.
+*/
+.movie-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
