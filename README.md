@@ -79,4 +79,6 @@ This will run the test suite using your configured test runner (e.g., Jest).
 
 ### Future improvements
 
-For this project, if we want better performance or want to avoid making a new request to the API every time the home page renders, we should use SWR. This would lead to improved performance at scale.
+For this project, if we want better performance or want to avoid making a new request to the API every time the home page renders, we should use SWR on the home page (specifically in the fetch for popular movies). This would lead to improved performance at scale.
+
+We could also add React Suspense to handle loading states while the system fetches movie data, and implement infinite scroll on the home page to continuously load more movies as the user scrolls down.
