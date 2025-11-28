@@ -9,7 +9,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "RTI Take Home Assessment",
+  title: "TMDB Popular Movie List",
   description: "Popular movies list using TheMovieDB API",
 };
 

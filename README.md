@@ -14,8 +14,8 @@ Follow the steps below to set up and run the project locally.
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/pedro-arimura/rti-takehome-assessment.git
-cd rti-takehome-assessment
+git clone https://github.com/pedro-arimura/tmdb-page.git
+cd tmdb-page
 ```
 
 ---
