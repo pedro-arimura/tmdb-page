@@ -1,6 +1,7 @@
 import { getMovieDetailsById } from "@/lib/tmdb";
 import "@/app/globals.css";
 import "@/styles/theme.css";
+import FavoriteButton from "@/components/FavoriteButton";
 
 export default async function AboutMoviePage({ params }: { params: { id: string } }) {
     const { id } = await params;
@@ -27,7 +28,7 @@ export default async function AboutMoviePage({ params }: { params: { id: string 
                         </div>
                         <div>
                             <p className="rating">{movieData.vote_average.toFixed(1)}/10</p>
-                            <button className="favorite-btn">Add to Favorite</button>
+                            <FavoriteButton movie_id={id}></FavoriteButton>
                         </div>
                     </div>
                 </div>
